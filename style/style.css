@@ -3,19 +3,27 @@ body {
 }
 ul {
   text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
 }
 li{
 	text-align: center;
 	width: 10%;
     margin: auto;
 	
+	
 }
 h1 {
   color: #80A1D4;
+  background-color: #C0B9DD;
   text-align: center;
 }
 p {
 	text-align:center;
+	font-family:font-family: 'Jomolhari', serif;
 	
 }
 h2 {
@@ -29,12 +37,32 @@ img {
 embed{
 	padding: 25px 100px 25px 600px;
 }
-nav {
-  background-color: #F7F4EA; 
-  width:100%;
+
+
+ul a {
+  display: inline;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float:center;
 }
-div {
+#set{
 background-color: #C0B9DD;
-height:50px;
+}
+
+
+
+#wrapper {
+width: 850px;
+height: 600px;
+background-color: #c00;
+margin:0 auto;
+overflow: hidden;
+}
+#canvas {
+width: 700px;
+height: 500px;
+background-color: #ccc;
+margin: 30px auto;
 }

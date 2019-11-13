@@ -19,7 +19,9 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-
+ a{
+ background color: transparent;
+ }
 body {
   margin: 0;
 }
@@ -73,9 +75,7 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 
-a {
-  background-color: transparent;
-}
+
 
 /**
  * 1. Remove the bottom border in Chrome 57-
