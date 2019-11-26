@@ -1,3 +1,5 @@
+var el = ["1"]
+
 function init(){
 	//alert('it works');
 	var el = document.getElementById('canvas');
@@ -20,6 +22,7 @@ function init(){
 		position: myLocation,
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
+		label: el[0], 
 		
 	});
 	var marker2 = new google.maps.Marker({
