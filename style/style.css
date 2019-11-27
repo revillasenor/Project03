@@ -1,5 +1,6 @@
 body {
-     background-color:#DED9E2 ;
+     background-color: #FFFFFF;
+	
 }
  ul {
      text-align: center;
@@ -15,7 +16,7 @@ body {
      display:inline;
 }
  h1 {
-     color: #80A1D4;
+     color: #FFFFFF;
      background-color: #C0B9DD;
      text-align: center;
 }
@@ -60,3 +61,16 @@ img {
      background-color: #ccc;
      margin: 30px auto;
 }
+@media only screen and (min-width: 1000px){
+	body{
+		background-color: #DED9E2;
+	}
+	h1 {
+		color: #80A1D4;
+		
+	}
+}
+@media only screen and (min-width: 1000px){
+	li a {
+		color: #80A1D4		
+	}
