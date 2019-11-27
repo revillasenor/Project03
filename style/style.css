@@ -26,7 +26,7 @@ body {
  h2 {
      text-align:center;
 }
- img {
+img {
      padding: 25px 50px 75px 100px;
     padding: 25px 50px 75px 100px;
      width:400px ;
@@ -34,6 +34,8 @@ body {
 }
  embed{
      padding: 25px 100px 25px 600px;
+	 text-align: center;
+	 
 }
  li a {
      display: inline;
@@ -58,3 +60,5 @@ body {
      background-color: #ccc;
      margin: 30px auto;
 }
+.slideshow {
+	
