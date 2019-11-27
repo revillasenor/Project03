@@ -14,6 +14,7 @@ body {
      width: 10%;
      margin: auto;
      display:inline;
+	 color: #FFFFFF;
 }
  h1 {
      color: #FFFFFF;
@@ -70,7 +71,3 @@ img {
 		
 	}
 }
-@media only screen and (min-width: 1000px){
-	li a {
-		color: #80A1D4		
-	}
